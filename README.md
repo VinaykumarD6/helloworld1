@@ -235,6 +235,10 @@ Use Hex Code for Specific ColorsP
 
 Use Abbreviated Hex Code
 
+Use CSS Variables to change several elements at once
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
 
 
 
