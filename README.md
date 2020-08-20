@@ -89,6 +89,160 @@ For example, if you wanted to make a text input field required, you can just add
 <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
 
 
+When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type radio and checkbox report their values from the value attribute.
+
+If you omit the value attribute, the submitted form data uses the default value, which is on.
+
+You can set a checkbox or radio button to be checked by default using the checked attribute.
+
+<input type="radio" name="test-name" checked>
+
+Just like any other non-self-closing element, you can open a div element with <div> and close it on another line with </div>.
+
+Nest Many Elements within a Single div Element
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata elements -->
+  </head>
+  <body>
+    <!-- page contents -->
+  </body>
+</html>
+
+
+BASIC CSS:
+
+color property<h2 style="color: blue;">CatPhotoApp</h2>
+
+CSS selectors:
+
+Using tag name
+<style>
+  h2 {
+    color: red;
+  }
+</style>
+
+
+Using class name:
+
+<style>
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h2 class="blue-text">CatPhotoApp</h2>
+
+
+we can Style Multiple Elements with a CSS Class
+
+Font size is controlled by the font-size CSS property, like this:
+
+h1 {
+  font-size: 30px;
+}
+
+font-family property
+
+h2 {
+  font-family: sans-serif;
+}
+
+import google font
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+font-family: FAMILY_NAME, GENERIC_NAME;.
+
+The GENERIC_NAME is optional, and is a fallback font in case the other specified font is not available.
+
+Size Your Images
+
+<style>
+  .larger-image {
+    width: 500px;
+  }
+</style>
+
+CSS borders have properties like style, color and width.
+
+<style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+
+We can round out those corners with a CSS property called border-radius.
+
+Make Circular Images with a border-radius: 50%, 100%
+
+
+You can set an element's background color with the background-color property.
+
+.green-background {
+  background-color: green;
+}
+
+
+id attributes should be unique.
+<h2 id="cat-photo-app">
+
+Three important properties control the space that surrounds each HTML element: padding, margin, and border.
+
+An element's margin controls the amount of space between an element's border and surrounding elements.
+
+If you set an element's margin to a negative value, the element will grow larger.
+
+CSS allows you to control the padding of all four individual sides of an element with the padding-top, padding-right, padding-bottom, and padding-left properties.
+
+CSS allows you to control the margin of all four individual sides of an element with the margin-top, margin-right, margin-bottom, and margin-left properties.
+
+Use Clockwise Notation to Specify the padding of an Element        padding: 10px 20px 10px 20px;
+
+Use Clockwise Notation to Specify the Margin of an Element          margin: 10px 20px 10px 20px;
+
+There are other CSS Selectors you can use to select custom groups of elements to style.
+
+[type='radio'] {
+  margin: 20px 0px 20px 0px;
+}
+example, the above code changes the margins of all elements with the attribute type and a corresponding value of radio:
+
+
+Absolute units tie to physical units of length. For example, in and mm refer to inches and millimeters, respectively.
+
+Relative units, such as em or rem, are relative to another length value. For example, em is based on the size of an element's font.
+
+
+Applying multiple class attributes to a HTML element is done with a space between them like this:
+
+class="class1 class2"
+
+Override Class Declarations by Styling ID AttributesP
+
+Override Class Declarations with Inline Styles
+
+when you absolutely need to be sure that an element has specific CSS, you can use !important
+
+color: red !important;
+
+
+Use Hex Code for Specific ColorsP
+
+Use Abbreviated Hex Code
+
+
+
+
+
+
+
+
+
 
 
 
